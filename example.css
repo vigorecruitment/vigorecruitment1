@@ -1,0 +1,112 @@
+/* Set background color */
+body {
+  background-color: #ffffff; /* Replace with your desired background color */
+}
+
+/* Make all headings bold and set the color */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #3c5045;
+}
+
+/* Set font type to Barlow Condensed */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Style hyperlinks */
+a {
+  color: #3c5045;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style visited hyperlinks */
+a:visited {
+  color: #3c5045;
+}
+
+/* Style hover state for hyperlinks */
+a:hover {
+  text-decoration: underline; /* Add underline on hover if desired */
+}
+
+/* Add padding to all forms */
+form {
+  padding: 20px; /* Adjust the value as needed */
+  margin-bottom: 30px; /* Adjust the value as needed */
+}
+
+/* Increase all font sizes by 30% */
+body, h1, h2, h3, h4, h5, h6, p, a {
+  font-size: 1.3em; /* 30% increase (1em is the default font size) */
+}
+
+/* Add padding between dropdown menus */
+.dropdown-container {
+  padding-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* Add padding between selection boxes */
+.select-container {
+  padding-right: 15px;
+  padding-bottom:25px; /* Adjust the value as needed */
+}
+
+/* Increase margin on field containers */
+.field-container {
+  margin-bottom: 15px; /* Adjust the value as needed */
+  padding: 15px; /* Adjust the value as needed */
+}
+
+/* Increase padding around selector titles */
+.label-title {
+  padding: 40px; /* Adjust the value as needed */
+}
+select {
+  padding: 4px;
+  font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.ja-button {
+  font-size: 1em;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  padding: 4px 18px;
+  text-decoration: none;
+  background-color: #3c5045;
+  color: white;
+  display: inline-block;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+.ja-button:hover {
+  font-size: 1em;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: normal;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  padding: 4px 18px;
+  text-decoration: none;
+  background-color: white;
+  color: #3c5045;
+  display: inline-block;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+.ja-form .ja-field-container {
+  margin-bottom: 1em;
+
+  .powered-by-jobadder {
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 2em 0 1em 0;
+}
+
